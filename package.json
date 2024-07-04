@@ -1,6 +1,6 @@
 {
   "name": "wljs-sharedlib-mk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A shared javascript library that ships Marked.js and KateX.js",
   "scripts": {
     "build": "node --max-old-space-size=8192 ./node_modules/.bin/rollup --config rollup.config.mjs",

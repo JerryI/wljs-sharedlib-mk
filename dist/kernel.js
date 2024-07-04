@@ -21122,7 +21122,7 @@ var renderMathInElement = function renderMathInElement(elem, options) {
 };
 
 const markedLoader = async (self) => {
-    self["default"] = marked;
+    self["default"] = Marked;
   };
 
 
@@ -21137,6 +21137,6 @@ const markedLoader = async (self) => {
   );  
 
   new interpretate.shared(
-    "marked",
+    "Marked",
     markedLoader
   );

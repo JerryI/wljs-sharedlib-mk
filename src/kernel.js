@@ -1,10 +1,10 @@
 
-  import {marked} from 'marked';
+  import {Marked} from 'marked';
   import katex from 'katex';
   import autorender from 'katex/contrib/auto-render'
 
   const markedLoader = async (self) => {
-    self["default"] = marked;
+    self["default"] = Marked;
   }
 
 
@@ -19,6 +19,6 @@
   );  
 
   new interpretate.shared(
-    "marked",
+    "Marked",
     markedLoader
   );    
